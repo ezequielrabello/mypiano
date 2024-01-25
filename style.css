@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(90deg, #190361 0%, rgba(93, 29, 87, 0) 100%);
+    animation: changeColor 10s infinite ease-in-out;
+    background-size: 120% 120%;
+}
+
+main {
+    border-top: 100px solid rgb(58, 58, 58);
+    border-right: 50px solid rgb(58, 58, 58);
+    border-left: 50px solid rgb(58, 58, 58);
+    
+    width: 500px;
+    
+    align-content: center;
+    margin: 250px auto;
+    
+}
+
+.piano {
+    border: 3px solid rgba(136, 136, 136, 0);
+    display: inline-flex;
+    width: 400px;
+}
+
+.keys {
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+}
+
+.keys[id*="#"] {
+    background-color: black;
+    z-index: 2;
+    width: 150px;
+    height: 50px;
+    margin-right: -25px;
+    
+}
+
+
+
+
+@keyframes changeColor{
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
