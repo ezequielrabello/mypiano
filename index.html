@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My piano</title>
@@ -11,30 +14,45 @@
 <body>
     <main>
         <div class="piano">
-            <button class="keys" id="keyC1"></button>
-            <button class="keys" id="keyC1#"></button>
-            <button class="keys" id="keyD1"></button>
-            <button class="keys" id="keyD1#"></button>
-            <button class="keys" id="keyE1"></button>
-            <button class="keys" id="keyF1"></button>
-            <button class="keys" id="keyF1#"></button>
-            <button class="keys" id="keyG1"></button>
-            <button class="keys" id="keyG1#"></button>
-            <button class="keys" id="keyA1"></button>
-            <button class="keys" id="keyA1#"></button>
-            <button class="keys" id="keyB1"></button>
-            <button class="keys" id="keyC2"></button>
-            <button class="keys" id="keyC2#"></button>
-            <button class="keys" id="keyD2"></button>
-            <button class="keys" id="keyD2#"></button>
-            <button class="keys" id="keyE2"></button>
-            <button class="keys" id="keyF2"></button>
-            <button class="keys" id="keyF2#"></button>
-            <button class="keys" id="keyG2"></button>
-            <button class="keys" id="keyG2#"></button>
-            <button class="keys" id="keyA2"></button>
-            <button class="keys" id="keyA2#"></button>
-            <button class="keys" id="keyB2"></button>
+            <div class="controls">
+                <h1>Ezequiel Rabello | Piano</h1>
+                <label class="label">Show keys
+                    <span class="switch ">
+                        <span class="switch_button"></span>
+                    </span>
+                    
+                    <input type="checkbox" class="checkbox_keys" hidden>
+                </label>
+
+                
+            </div>
+
+            <div class="piano_keys">
+                <button class="keys" data-key="keyC1">q</button>
+                <button class="keys" data-key="keyC1#">2</button>
+                <button class="keys" data-key="keyD1">w</button>
+                <button class="keys" data-key="keyD1#">3</button>
+                <button class="keys" data-key="keyE1">e</button>
+                <button class="keys" data-key="keyF1">4</button>
+                <button class="keys" data-key="keyF1#">r</button>
+                <button class="keys" data-key="keyG1">5</button>
+                <button class="keys" data-key="keyG1#">t</button>
+                <button class="keys" data-key="keyA1">6</button>
+                <button class="keys" data-key="keyA1#">y</button>
+                <button class="keys" data-key="keyB1">7</button>
+                <button class="keys" data-key="keyC2">u</button>
+                <button class="keys" data-key="keyC2#">8</button>
+                <button class="keys" data-key="keyD2">i</button>
+                <button class="keys" data-key="keyD2#">9</button>
+                <button class="keys" data-key="keyE2">o</button>
+                <button class="keys" data-key="keyF2">0</button>
+                <button class="keys" data-key="keyF2#">p</button>
+                <button class="keys" data-key="keyG2">-</button>
+                <button class="keys" data-key="keyG2#">[</button>
+                <button class="keys" data-key="keyA2">=</button>
+                <button class="keys" data-key="keyA2#">]</button>
+                <button class="keys" data-key="keyB2">\   </button>
+            </div>
         </div>
     </main>
 </body>
