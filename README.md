@@ -12,11 +12,11 @@ Check it out!
  
 ## 🛠 Technologies
 This project was developed with the following technologies:
-- <h3>Javascript</h3> ➡ The JS part on this project was really interesting to me, because I got to learn even more about the use of arrow function, getAttributes and objects. 
+- <h3>Javascript</h3> ▶ The JS part on this project was really interesting to me, because I got to learn even more about the use of arrow function, getAttributes and objects. 
 
-- <h3>CSS</h3> ➡ On the style of this project, I tried to keep as realistic as I could with the use of linear-gradient and also, using colors that I haven't used before. 
+- <h3>CSS</h3> ▶ On the style of this project, I tried to keep as realistic as I could with the use of linear-gradient and also, using colors that I haven't used before. 
 
-- <h3>HTML</h3> ➡ On HTML, I learned more about using "data-" in an HTML Tag and how to sync it with Javascript.
+- <h3>HTML</h3> ▶ On HTML, I learned more about using "data-" in an HTML Tag and how to sync it with Javascript.
 
 ## 🔗 Links
 
