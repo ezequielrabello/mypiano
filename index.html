@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>My piano</title>
     <link rel="stylesheet" href="style.css">
     <script src="/js/main.js" type="module" defer></script>
@@ -16,36 +19,36 @@
                 <span class="switcher">
                     <span class="switcher_button"></span>
                 </span>
-                <input type="checkbox" id="check_showKeys" hidden>
+                <input type="checkbox" class="checkbox_keys" hidden>
             </label>
         </div>
 
-        <div class="keys">
-            <div class="key" data-note="1"><span>Q</span></div>
-            <div class="key sust" data-note="2"><span>2</span></div>
-            <div class="key" data-note="3"><span>W</span></div>
-            <div class="key sust" data-note="4"><span>3</span></div>
-            <div class="key" data-note="5"><span>E</span></div>
-            <div class="key" data-note="6"><span>R</span></div>
-            <div class="key sust" data-note="7"><span>5</span></div>
-            <div class="key" data-note="8"><span>T</span></div>
-            <div class="key sust" data-note="9"><span>6</span></div>
-            <div class="key" data-note="10"><span>Y</span></div>
-            <div class="key sust" data-note="11"><span>7</span></div>
-            <div class="key" data-note="12"><span>U</span></div>
-            <div class="key" data-note="13"><span>I</span></div>
-            <div class="key sust" data-note="14"><span>9</span></div>
-            <div class="key" data-note="15"><span>O</span></div>
-            <div class="key sust" data-note="16"><span>0</span></div>
-            <div class="key" data-note="17"><span>P</span></div>
-            <div class="key" data-note="18"><span>[</span></div>
-            <div class="key sust" data-note="19"><span>=</span></div>
-            <div class="key" data-note="20"><span>]</span></div>
-            <div class="key sust" data-note="21"><span>\</span></div>
-            <div class="key" data-note="22"><span>7</span></div>
-            <div class="key sust" data-note="23"><span>/</span></div>
-            <div class="key" data-note="24"><span>*</span></div>
-        </div>
+        <section class="keys">
+            <div class="key white" data-note="1"><span class="disable_keys">TAB</span></div>
+            <div class="key sust" data-note="2"><span class="disable_keys">1</span></div>
+            <div class="key white" data-note="3"><span class="disable_keys">Q</span></div>
+            <div class="key sust" data-note="4"><span class="disable_keys">2</span></div>
+            <div class="key white" data-note="5"><span class="disable_keys">W</span></div>
+            <div class="key white" data-note="6"><span class="disable_keys">E</span></div>
+            <div class="key sust" data-note="7"><span class="disable_keys">4</span></div>
+            <div class="key white" data-note="8"><span class="disable_keys">R</span></div>
+            <div class="key sust" data-note="9"><span class="disable_keys">5</span></div>
+            <div class="key white" data-note="10"><span class="disable_keys">T</span></div>
+            <div class="key sust" data-note="11"><span class="disable_keys">6</span></div>
+            <div class="key white" data-note="12"><span class="disable_keys">Y</span></div>
+            <div class="key white" data-note="13"><span class="disable_keys">U</span></div>
+            <div class="key sust" data-note="14"><span class="disable_keys">8</span></div>
+            <div class="key white" data-note="15"><span class="disable_keys">I</span></div>
+            <div class="key sust" data-note="16"><span class="disable_keys">9</span></div>
+            <div class="key white" data-note="17"><span class="disable_keys">O</span></div>
+            <div class="key white" data-note="18"><span class="disable_keys">P</span></div>
+            <div class="key sust" data-note="19"><span class="disable_keys">-</span></div>
+            <div class="key white" data-note="20"><span class="disable_keys">[</span></div>
+            <div class="key sust" data-note="21"><span class="disable_keys">=</span></div>
+            <div class="key white" data-note="22"><span class="disable_keys">]</span></div>
+            <div class="key sust" data-note="23"><span class="disable_keys">\</span></div>
+            <div class="key white" data-note="24"><span class="disable_keys">7</span></div>
+        </section>
     </div>
 </body>
 </html>
