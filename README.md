@@ -7,8 +7,8 @@
 In this project, I created a Piano and it was inspired by Manual do Dev channel on Youtube! <br>
 If you are a musician like me, this is a project that you can't miss out on! <br>
 I am sure that, with the skills you learn by working on this project, you will be able to reach way more complex solutions for applications like this one! <br>
-Something interesting about this piano is the possibility to choose between showing the keys or not by clicking on the switch button. 
-Check it out! 
+Something interesting about this piano is the possibility to choose between showing the keys or not by clicking on the switch button. <br> 
+Check it out! https://ezequielrabello.github.io/mypiano/
  
 ## 🛠 Technologies
 This project was developed with the following technologies:
